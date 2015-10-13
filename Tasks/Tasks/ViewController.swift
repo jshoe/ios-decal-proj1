@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
-        if(editingStyle == UITableViewCellEditingStyle.Delete){
+        if(editingStyle == UITableViewCellEditingStyle.Delete){ // swipe to delete
             taskController.tasks.removeAtIndex(indexPath.row)
             viewWillAppear(true)
         }

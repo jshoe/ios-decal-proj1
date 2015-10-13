@@ -62,6 +62,12 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="dQi-AE-EDi"/>
                                 </connections>
                             </tableView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Swipe to delete a task. Old tasks clear after 24 hours." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qeo-nB-ocI">
+                                <rect key="frame" x="160" y="513" width="186" height="51"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93723925249999995" blue="0.82699040889999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -69,7 +75,10 @@
                             <constraint firstItem="p8B-Io-4gh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="45h-Z1-52f"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lB5-ZQ-Flf" secondAttribute="bottom" constant="60" id="J4d-bQ-T9e"/>
                             <constraint firstItem="p8B-Io-4gh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KtW-jR-2O6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qeo-nB-ocI" secondAttribute="bottom" constant="8" id="N77-O9-rz2"/>
                             <constraint firstItem="lB5-ZQ-Flf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PDI-tr-xEX"/>
+                            <constraint firstItem="Qeo-nB-ocI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WLo-TM-afx"/>
+                            <constraint firstItem="Qeo-nB-ocI" firstAttribute="leading" secondItem="lB5-ZQ-Flf" secondAttribute="trailing" constant="-420" id="cPj-f2-H51"/>
                             <constraint firstItem="lB5-ZQ-Flf" firstAttribute="centerX" secondItem="p8B-Io-4gh" secondAttribute="centerX" id="swD-Su-CUF"/>
                         </constraints>
                     </view>
